@@ -20,13 +20,14 @@ import (
 	"errors"
 	"fmt"
 	// "strconv"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedge/approveTx"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedge/createRecord"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedge/requestRecords"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedge/getRecord"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedge/getRequest"
+
+	"github.com/jarmanl/bluechain/approveTx"
+	"github.com/jarmanl/bluechain/createRecord"
+	"github.com/jarmanl/bluechain/requestRecords"
+	"github.com/jarmanl/bluechain/getRecord"
+	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedger/getRequest"
 	// "hasher"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedge/database"
+	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedger/database"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
 
