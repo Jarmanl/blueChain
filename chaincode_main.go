@@ -25,9 +25,9 @@ import (
 	"github.com/jarmanl/bluechain/createRecord"
 	"github.com/jarmanl/bluechain/requestRecords"
 	"github.com/jarmanl/bluechain/getRecord"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedger/getRequest"
+	"github.com/jarmanl/bluechain/getRequest"
 	// "hasher"
-	"/opt/gopath/_usercode_/029461125/src/hub.jazz.net/git/imskmatt/HealthChainLedger/database"
+	"github.com/jarmanl/bluechaindatabase"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
 
