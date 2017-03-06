@@ -239,10 +239,10 @@ func (t *SimpleChaincode) jarman(stub shim.ChaincodeStubInterface, function stri
 	text := []byte("This is a fake message for testing")
 	return text, nil
 }
-func main() {
-	err := shim.Start(new(SimpleChaincode))
-	if err != nil {
-		fmt.Printf("Error starting Simple chaincode: %s", err)
-	}
-}
+// func main() {
+// 	err := shim.Start(new(SimpleChaincode))
+// 	if err != nil {
+// 		fmt.Printf("Error starting Simple chaincode: %s", err)
+// 	}
+// }
 //test
